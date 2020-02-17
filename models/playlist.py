@@ -1,0 +1,6 @@
+from . import track
+
+class Playlist:
+	def __init__(self, name):
+		self.name = name
+		self.tracks = []
